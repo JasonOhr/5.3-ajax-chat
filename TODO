@@ -1,0 +1,10 @@
+- [ ] HTML structure and layout
+    - [ ] HTML structure for login
+    - [ ] Respond to URL changes by loading login on '/' and empty chat screen on /chat
+    - [ ] HTML structure for chat
+    - [ ] Save the user data in a var so it can be added to msg
+    - [ ] Redirect to chat screen upon login
+- [ ] Log a list o messages from the server
+- [ ] Display a list of messages from the server
+- [ ] Implement create a message
+- [ ] 
