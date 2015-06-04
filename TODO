@@ -1,0 +1,22 @@
+- [ ] HTML structure and layout
+    - [x] HTML structure for login
+    - [x] Respond to URL changes by loading login on '/' and empty chat screen on /chat
+    - [ ] HTML structure for chat
+    - [x] Save the user data in a var so it can be added to msg
+    - [x] Redirect to chat screen upon login
+- [ ] Log a list of messages from the server
+- [ ] Display a list of messages from the server
+- [ ] Implement create a message
+- [ ] 
+## Normal mode
+
+- [ ] I should be able to fill out a form to set my username
+- [ ] I should be able to create messages that are tagged with the time and my
+  username
+- [ ] I should be able to see all the messages that have been created.
+- [ ] The list of messages should update with new messages without refreshing the
+  page.
+
+Make ajax requests to
+http://tiny-lasagna-server.herokuapp.com/collections/messages/ if you'd like to
+share a chat room.
