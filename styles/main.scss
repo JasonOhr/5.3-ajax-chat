@@ -19,3 +19,51 @@ body {
   background-color: $base-background-color;
   color: $base-font-color;
 }
+.application {
+  @include outer-container(100%);
+}
+.login-form{
+  width: 250px;
+  margin: 300px auto;
+}
+.sidebar {
+  @include span-columns(2.5);
+  @include omega();
+  min-height: 570px;
+  padding: 15px;
+  color: #ffffff;
+  background-color: #4d394b;
+}
+.main {
+  @include span-columns(7.5);
+  padding: 0 15px 30px 30px;
+  background-color: $very-light-gray;
+}
+.each-message-container {
+  min-height: 50px;
+  padding-top: 10px;
+}
+.message-name {
+  font-weight: bold;
+}
+.message-time {
+  color: #948B8B;
+  font-size: 12px;
+  font-weight: normal;
+  padding-left: 10px;
+
+}
+.newMessage {
+  @include span-columns(8);
+  height: 40px;
+  margin-top: 20px;
+}
+.sendMessage {
+  height: 40px;
+  width: 80px;
+  margin-top: 20px;
+}
+
+* {
+  outline:none;
+}

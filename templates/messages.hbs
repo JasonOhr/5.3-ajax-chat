@@ -1,4 +1,7 @@
 {{#each this}}
 
-<div><span>{{username}}</span><span>{{content}}</span><span>{{created_at}}</span></div>
+<div class="each-message-container">
+<div><span class="message-name">{{username}}<span class="message-time">{{format-date created_at}}</span></span></div>
+    <div><span class="message-content">{{content}}</span></div>
+</div>
 {{/each}}
